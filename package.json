@@ -1,0 +1,11 @@
+{
+  "name": "rhea-ref-exchange-methods-const",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
