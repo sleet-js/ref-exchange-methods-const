@@ -1,5 +1,5 @@
 {
-  "name": "rhea-ref-exchange-methods-const",
+  "name": "@sleet-js/ref-exchange-methods-const",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
