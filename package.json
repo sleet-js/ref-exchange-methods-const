@@ -1,6 +1,7 @@
 {
   "name": "@sleet-js/ref-exchange-methods-const",
   "version": "0.0.1",
+  "license": "MIT",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
