@@ -123,3 +123,6 @@ export const ref_exchange_methods_const = {
   get_client_echo_sender_id_whitelist: "get_client_echo_sender_id_whitelist",
   get_secure_sender_whitelist: "get_secure_sender_whitelist",
 } as const;
+// ================================================
+export const ref_mainnet_contractId_const = "v2.ref-finance.near"
+export const ref_testnet_contractId_const = "ref-finance-101.testnet"

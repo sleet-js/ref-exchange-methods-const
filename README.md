@@ -36,18 +36,24 @@ common methods - example with near api js
 ```js
 // GET NUMBER OF POOLS
 const result = await MY_BACKEND_NEARAPI_JsonRpcProvider_const.callFunction(
-  rhea_contractId_const,
+  ref_mainnet_contractId_const,
   ref_exchange_methods_const.get_number_of_pools,
   {},
 );
 
 // GET SHIT BUY QUOTE
 const WNEAR_IN_SHIT_OUT_RESULT = await MY_BACKEND_NEARAPI_JsonRpcProvider_const.callFunction(
-  rhea_contractId_const,
+  ref_mainnet_contractId_const,
   ref_exchange_methods_const.get_return,
-  {"pool_id": POOLS.SHIT_WNEAR, "token_in": TOKENS.WNEAR, "amount_in": WNEAR_START_AMOUNT, "token_out": TOKENS.SHIT},
+  {"pool_id": 5767, "token_in": "wrap.near", "amount_in": "1000000000000000000000000", "token_out": "shit-1170.meme-cooking.near"},
 );
 ```
+
+
+this package also exports two consts for ref contract id
+- v2.ref-finance.near (ref_mainnet_contractId_const)
+- ref-finance-101.testnet (ref_testnet_contractId_const)
+
 
 ---
 
