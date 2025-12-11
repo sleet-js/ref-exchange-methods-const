@@ -29,7 +29,7 @@ bun add @sleet-js/ref-exchange-methods-const
 
 import
 ```js
-import { ref_exchange_methods_const } from '@sleet-js/ref-exchange-methods-const';
+import { ref_exchange_methods_const, ref_mainnet_contractId_const } from '@sleet-js/ref-exchange-methods-const';
 ```
 
 common methods - example with near api js
@@ -49,10 +49,10 @@ const WNEAR_IN_SHIT_OUT_RESULT = await MY_BACKEND_NEARAPI_JsonRpcProvider_const.
 );
 ```
 
-
-this package also exports two consts for ref contract id
-- v2.ref-finance.near (ref_mainnet_contractId_const)
-- ref-finance-101.testnet (ref_testnet_contractId_const)
+package exports
+- ref_exchange_methods_const (all the methods)
+- ref_mainnet_contractId_const (v2.ref-finance.near)
+- ref_testnet_contractId_const (ref-finance-101.testnet)
 
 
 ---
